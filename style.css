@@ -1,0 +1,83 @@
+html {
+    background: #ece5e5;
+}
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 40px;
+    padding: 40px;
+    color: #000;
+    background: #fff;
+}
+h1{
+    font-size: 3em;
+    margin: 0;
+
+}
+.index-Nav ul{
+    line-height: 35px;
+    font-size: 18px;
+    border-style: double;
+
+    list-style: none;
+    
+    
+    
+  
+}
+.index-Nav li{
+    display: inline;
+    padding-right: 40px;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    
+}
+.index-time{
+    line-height: 20px;
+    font-size: 20px;
+}
+h2{
+    font-size: 2em;
+
+}
+p{
+    line-height: 35px;
+    font-size: 22px;
+    text-indent: 30px;
+    margin-right: 40px;
+    
+
+  
+
+}
+
+.index-img{
+    border-bottom: 5px solid black;
+    
+}
+.index-table tr,th,td{
+    border: 2px   solid black;
+    line-height: 18px;
+    font-size: 18px;
+}
+.index-h2 form {
+    font-size: 16px;
+}
+.button{
+    background-color: darkgray;
+    border: none;
+    color: black;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.hobbies ul, li{
+    line-height: 35px;
+    font-size: 22px;
+
+}
+  
+
+
+
+
