@@ -13,34 +13,80 @@ body{
     padding: 40px;
     color: #000;
     background: #fff;
+    border-bottom: solid black;
+    border-top: solid black;
 }
-a:link{
-    color:cornflowerblue; 
+
     
+a:any-link
+{
+    color: black;
 }
 h1{
     font-size: 3em;
     margin: 0;
+   
 
 }
-.index-Nav ul{
-    line-height: 35px;
-    font-size: 18px;
-    border-style: double;
+section {
+    display: flex;
+    
+}
+article{
+    margin: 20px;
+    padding: 20px;
+}
+article:nth-last-of-type(1){
+    
+    flex-direction: column;
+}
+article:nth-of-type(2){
 
-    list-style: none;
-    
-    
-    
+flex-direction: column;
+}
+article:nth-of-type(3){
+flex: 20px;
+}
+article:nth-of-type(4){
+
+    flex: 20px;
+    }
+    article:nth-of-type(5){
+
+        flex-direction: column;
+        }
+
+    .index-Nav{
+        position: sticky;
+        background-color: #ccc;
+        top: 0;
+    }
+    .index-Nav ul{
+        margin: 0;
+        padding: 0;
+        border:2px solid darkgray;
+        overflow: hidden;
+
+
+    }
+    .index-Nav li{
+        display: inline;
+      float: left;
+
+    }
+    .index-Nav li a {
+        padding: 20px 22px;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+
+
+    }
+       
   
-}
-.index-Nav li{
-    display: inline;
-    padding-right: 100px;
-    font-family: "Times New Roman";
-    font-size: 20px;
-    
-}
+
+
+
 .index-time{
     line-height: 20px;
     font-size: 20px;
@@ -61,21 +107,59 @@ p{
 }
 
 .index-img{
-    border-bottom: 5px solid black;
+    
     filter: drop-shadow(30px 10px 4px lightgray);
-
+  
+  
     
 }
+figure{
+    float: left;
+    font-size: 18px;
+    text-align: center;
+
+}
+.index-img2{
+    
+    filter: drop-shadow(30px 10px 4px lightgray);
+    
+}
+
 .index-table tr,th,td{
     border: 2px   solid black;
+    background-color: #fff;
     line-height: 18px;
-    font-size: 18px;
+    font-size: 20px;
+    
 }
+.index-table{
+    background: #ece5e5;
+    width: 100%;
+ 
+}
+.index-table tr th{
+    height: 20px;
+    width: 20%;
+}
+.index-table table{
+    height: 100%;
+    
+    
+}
+    
+
 .index-h2 form {
     font-size: 18px;
+   height: 100%;
+width: 100%;
+}
+.index-h2{
+    background: #ece5e5;
+   width: 100%;
+   padding-left: 200px;
 }
 .button{
-
+margin-left: 300px;
     border: 0;
     padding: 10px 30px;
     background: rgb(127, 96, 136);
@@ -84,7 +168,11 @@ p{
     color: #fff;
     display: flex;
   flex-direction: column;
+  
 
+}
+.hobbies li{
+    display: inline;
 }
 .hobbies ul, li{
     line-height: 35px;
@@ -93,11 +181,20 @@ p{
 }
 #img-about{
     filter: drop-shadow(30px 10px 4px lightgray);
+    float: left;
 
 
 }
-#body-contact form, div, input{
-    width: 100%;
+
+
+    #body-contact form{
+        width: 100%;
+        margin-top: 100px;
+       
+
+    }
+#body-contact  div, input{
+    width: 50%;
     padding: 12px;
     border: 3px solid #ccc;
     border-radius: 4px;
@@ -105,17 +202,16 @@ p{
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    
-
-}
-.comment label{
-  display: flex;
-  flex-direction: column;
  
 
-
-
 }
+
+   
+
+
+
+
+
 .comment button{
     border: 0;
     padding: 10px 30px;
